@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <tittle>Saree Cave | Ecommerce Website Design</tittle>
+    <link rel="stylesheet" href="saree.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo1.png" width="300px">
+            </div>  
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">My Account</a></li>
+                </ul>
+            </nav>
+            <img src="istockphoto-1181281555-170667a.jpg" width="30px" height="30px">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Buy Your <br>New Style!</h1><br><br>
+                <img src="Category Banner191021-940x150.jpg" width="1000px">
+                <a href="" class="btn">Exploe Now &#8594</a>
+                
+            </div>
+            <div class="col-2">
+                <img src="BEST-SAREE-BUSINESS-NAMES-1.png">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

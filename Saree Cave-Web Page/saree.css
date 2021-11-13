@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------navbar--------*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display;: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    color:sienna;
+}
+
+/*---link color---*/
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/*----container----*/
+
+.container{
+    max-width: 1300px;
+    max-height: 200px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*---------search bar---------*/
+
+.row-1{
+    display: inline-block;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row-1 table{
+    background-color: rgb(240, 243, 237);
+}
+.row-1 table a:hover{
+    color:sienna;
+}
+.header{
+    background:tan;
+}
+.header .row{
+    margin-top: 0px;
+}
+
+/*--------categories----------*/
+
+.row{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-1 h1{
+    font-size: 35px;
+    font-style:inherit;
+    background-color:white;
+}
+.col-1 table{
+    font-size:35px;
+    font-style:initial;
+    background-color: tan;  
+}
+.col-1 table a:hover{
+    color: sienna;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    max-width: 200px;
+    margin: auto; 
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2-2 img{
+    width: 100%;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 30px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background:rgb(51, 1, 1);
+    color:white;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5;
+    font-size: 25px;
+}
+.btn:hover{
+    background:rgb(91, 92, 89);
+}
+
+/*--------saree--------*/
+
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*--------Featured Products--------*/
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 40px;
+    color:black;
+    font-size: 40px;
+}
+.title::after{
+    content: '';
+    background: sienna;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+.item ul li{
+    display:inline-block;
+    margin-right:30px;
+    font-size:x-large;
+    margin-bottom: 30px;
+}
+.item li a{
+    text-decoration:none;
+    display: inline-block;
+    font-weight: lighter;
+    color:black;
+    padding: 0 20px;
+    position: relative;
+}
+.item ul li a:hover{
+    color:tan;
+}
+.item ul li a::after{
+    content: '';
+    background: black;
+    width: 0px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform: 0.3s;
+}
+.item ul li a:hover::after{
+    width: 100%;
+}
+
+/*--------item row1--------*/
+
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+.Col-4 p{
+    font-size: 15px;
+    color: black;
+}
+h3{
+    color:black;
+    font-weight: normal;
+}
+.rating .fa{
+    color: sienna;
+}
+
+/*--------item row2--------*/
+
+.col-5{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 50px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*--------Footer--------*/
+
+.footer{
+    background:tan;
+    color:black;
+    font-size: 20px;
+    padding: 60px 0 30px;
+}
+.footer h4{
+    color:black;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.footer-col-2 ul li a:hover{
+    color:sienna;
+}
+.footer-col-3 ul li a:hover{
+    color:sienna;
+}
+
+
+
